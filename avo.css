@@ -1,0 +1,53 @@
+
+  /* Acessibilidade - Adicionar ao CSS existente */
+  .accessibility-bar {
+    background-color: var(--dark);
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  
+  .accessibility-controls {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+  
+  .accessibility-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .accessibility-btn i {
+    font-size: 16px;
+  }
+  
+  .high-contrast {
+    background-color: black !important;
+    color: yellow !important;
+  }
+  
+  .high-contrast a {
+    color: cyan !important;
+  }
+  
+  .font-large {
+    font-size: 120% !important;
+  }
+  
+  .font-xlarge {
+    font-size: 150% !important;
+  }
+  
+  /* Libras Widget */
+  .vlibras-widget {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    z-index: 99;
+  }
